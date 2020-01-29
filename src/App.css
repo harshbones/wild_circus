@@ -22,3 +22,34 @@ h1 {
  100% { text-shadow: 0 0 0.15em #cc1d4f; } 
 }
 
+@keyframes admin-neon {
+  0% { text-shadow: 0 0 0.15em #1d69cc; }
+  50% { text-shadow: 0 0 0.15em #1d69cc, 0 0 0.30em #1d69cc, 0 0 0.60em #1d69cc; }
+  100% { text-shadow: 0 0 0.15em #1d69cc; } 
+ }
+
+
+.Dashboard {
+  display: flex;
+}
+
+.Title {
+  font-size: 8vh;
+  margin: 1vh;
+  margin-right: 1.5vw;
+  text-align: right;
+  color: white;
+  filter: blur(0.007em);
+  transition: text-shadow .3s;
+}
+
+.Acts .Title, .Wilders .Title {
+  text-shadow: 0 0 0.15em #cc1d4f;
+  animation: title-neon 3s linear infinite;
+}
+
+.Admin .Title {
+  text-shadow: 0 0 0.15em #1d69cc;
+  animation: admin-neon 3s linear infinite;
+
+}
