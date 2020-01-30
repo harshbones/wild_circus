@@ -1,5 +1,7 @@
 
 .Menu {
+    position: sticky;
+    top: 0;
     height: 100vh;
     width: 20vw;
     display: flex;
@@ -27,8 +29,14 @@
     text-shadow: 0 0 0.30em #cc1d4f;
 }
 
-.Menu-logout {
+.Menu-logout button {
+    background: none;
     margin: 5vh;
     color: red;
     text-shadow: 1px 1px 1px darkred;
+}
+
+.Menu-logout button:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px 2px darkred;
 }

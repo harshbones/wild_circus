@@ -4,3 +4,9 @@
     width: 90vw;
     border: 1px solid #1d69cc;
 }
+
+.AdminAct {
+    color: white;
+    text-align: left;
+    margin-left: 1vw;
+}

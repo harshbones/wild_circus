@@ -3,3 +3,29 @@
     width: 90vw;
     border: 1px solid white;
 }
+
+.Wilder {
+    color: white;
+    text-align: left;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1vh;
+    padding-top: .5vh;
+    margin-bottom: 1vh;
+    padding-bottom: .5vh;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.Wilder-Name {
+    font-size: 2vw;
+}
+
+.Wilder-Nickname {
+    font-style: italic;
+}
+
+.Wilder-Description {
+    font-size: 1vw;
+    text-align: right;
+}

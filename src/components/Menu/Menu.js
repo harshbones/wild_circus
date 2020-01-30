@@ -16,7 +16,9 @@ const Menu = () => {
           <Link to="/admin">Admin</Link>
         </div>
       </div>
-      <div className="Menu-logout">Log Out</div>
+      <div className="Menu-logout">
+        <button>Log Out</button>
+      </div>
     </div>
   );
 };

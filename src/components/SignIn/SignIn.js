@@ -30,7 +30,14 @@ const SignIn = () => {
             <input type="email"></input>
             <label>Password :</label>
             <input type="password"></input>
-            <input type="submit" value="Submit"></input>
+            <button
+              type="button"
+              onClick={() =>
+                window.location.replace("http://localhost:3000/acts")
+              }
+            >
+              Submit
+            </button>
           </form>
         </div>
       </div>

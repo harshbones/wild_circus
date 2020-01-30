@@ -14,9 +14,11 @@ description TEXT
 CREATE TABLE users
 (
 user_id INT PRIMARY KEY AUTO_INCREMENT UNIQUE NOT NULL,
+email VARCHAR(100),
 firstname VARCHAR(100),
 lastname VARCHAR(150),
-location VARCHAR(150), 
+location VARCHAR(150),
+password VARCHAR(250), 
 is_admin INT NOT NULL
 );
 
